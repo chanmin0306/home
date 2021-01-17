@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="블랙서바이벌 가이드"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="@drawable/title_logo_textbox"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/btn_recipe"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/btn_design_test"
+        android:text="음식    레시피"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_design_test"
+        android:text="도감"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:id="@+id/btn_ency"
+        />
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="335dp"
+        android:textSize="38sp"
+        android:textColor="#000000"
+        android:background="@drawable/btn_design_test"
+        android:textStyle="bold"
+        android:text="맵 설명"
+        android:id="@+id/btn_map"
+        />
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="335dp"
+        android:layout_marginRight="30dp"
+        android:textSize="40sp"
+        android:textColor="#000000"
+        android:background="@drawable/btn_design_test"
+        android:textStyle="bold"
+        android:id="@+id/btn_buildup"
+        android:text="빌드업"
+        />
+
+
+</FrameLayout>
